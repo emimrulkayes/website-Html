@@ -1,0 +1,182 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menus {
+    display: flex;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-right: 15px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #000000;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+a:hover {
+    color: red;
+    background-color: #000000;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 0;
+}
+
+.text-area {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.color-text {
+    color: red;
+}
+
+.text-area p {
+    font-size: 20px;
+    color: #413f3f;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner-btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-transform: capitalize;
+    background-color: #000000;
+    color: #FFF;
+}
+
+
+/* Poroduct Section styles */
+
+.products-section {
+    padding: 80px 0;
+}
+.section-heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.product {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.image {
+    display: block;
+   overflow: hidden;
+}
+.image img {
+    width: 300px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.product:hover .image img{
+    transform: scale(1.5) rotate(-20deg);
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.product p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.product-btn {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border: 1px solid lightgray;
+    background: transparent;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.product-btn:hover {
+    background: #000;
+    color: red;
+}
+
+/* Footer styles  */
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+}
+
+.footer h4 {
+    font-size: 30px;
+    margin: 0;
+}
